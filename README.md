@@ -26,7 +26,7 @@ MultiPolygon         101
 Name: count, dtype: int64
 ```
 
-## Compression Algorithms
+## Compression Codec
 
 1. Uncrompressed
 2. Snappy

@@ -1,6 +1,3 @@
-"""
-Prepares gpkgs by saving subsets of it
-"""
 import geopandas as gpd
 import pandas as pd
 
