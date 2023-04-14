@@ -43,11 +43,11 @@ Running on a M2 mac book air 521gb
 
 ### Summary
 
-|     | file               | compression |       size | write_time | read_time | compression_ratio | size_renamed |
-| --: | :----------------- | :---------- | ---------: | ---------: | --------: | ----------------: | :----------- |
-|   0 | data/polygons.gpkg | none        | 1315369042 |    15.7838 |   10.5932 |                 1 | 1.2 GB       |
-|   1 | data/polygons.gpkg | snappy      |  780533978 |    21.0322 |   16.7709 |           1.68522 | 744.4 MB     |
-|   2 | data/polygons.gpkg | gzip        |  599009828 |    58.3971 |    21.832 |           2.19591 | 571.3 MB     |
-|   3 | data/polygons.gpkg | brotli      |  507856050 |    62.2907 |   21.2652 |           2.59004 | 484.3 MB     |
-|   4 | data/polygons.gpkg | zstd        |  672104571 |    25.1084 |   19.6659 |           1.95709 | 641.0 MB     |
-|   5 | data/polygons.gpkg | lz4         |  841515609 |    23.7573 |   18.9367 |            1.5631 | 802.5 MB     |
+| compression | write_time | read_time | size_renamed | compression_ratio |
+| :---------- | ---------: | --------: | :----------- | ----------------: |
+| none        |    15.7838 |   10.5932 | 1.2 GB       |                 1 |
+| snappy      |    21.0322 |   16.7709 | 744.4 MB     |           1.68522 |
+| gzip        |    58.3971 |    21.832 | 571.3 MB     |           2.19591 |
+| brotli      |    62.2907 |   21.2652 | 484.3 MB     |           2.59004 |
+| zstd        |    25.1084 |   19.6659 | 641.0 MB     |           1.95709 |
+| lz4         |    23.7573 |   18.9367 | 802.5 MB     |            1.5631 |
