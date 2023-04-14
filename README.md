@@ -37,7 +37,7 @@ Name: count, dtype: int64
 
 ## Experiment Setup
 
-Running on a M2 mac book air 521gb
+Running on a M2 mac book air 16gb ram, 512gb storage
 
 ## Results
 
