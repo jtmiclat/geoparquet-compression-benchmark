@@ -5,7 +5,7 @@ A simple benchmark comparing different compression codec for geoparquet files
 ## Setup
 
 ```bash
-wget -o http://download.geofabrik.de/asia/philippines-latest-free.shp.zip data/philippines.shp.zip
+wget http://download.geofabrik.de/asia/philippines-latest-free.shp.zip -o data/philippines.shp.zip
 ```
 
 ```bash
